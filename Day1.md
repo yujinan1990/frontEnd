@@ -45,31 +45,57 @@ If not, we need to give the whole path, either absolute or relative.
 <table>
   <tr>
     <th>Attribute</th>
-    <th>Description</th>
+    <th>Exemple</th>
   </tr>
   
   <tr>
-    <td rowspan="5" >style=""</td>
     <td >src=""</td>
+    <td ></td>
+  </tr>
+  
+  <tr>
+    <td >alt=""</td>
+    <td ></td>
   </tr>
   <tr>
-    <td >background-image:url('')</td>
-  </tr>
+    <td > usemap=""</td>
+    <td ><img usemap="#workmap"></td>
+  </tr> 
   <tr>
-    <td>width:50px</td>
-  </tr>
-  <tr>
-    <td>height:100px</td>
-  </tr>
-   <tr>
-    <td>alt:""</td>
-   </tr>
+    <td > name=""</td>
+    <td ><map name="workmap"></td>
+  </tr> 
    <tr>
     <td>shape:""</td>
+    <td><area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"></td>
    </tr>
    <tr>
     <td>coords:""</td>
+    <td> <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"></td>
    </tr> 
+  
+  
+  <tr>
+    <td rowspan="4" >style=""</td>
+    <td >src=""</td>
+  </tr>
+  
+  <tr>
+    <td >background-image:url('')</td>
+  </tr>
+  
+  <tr>
+    <td>width:50px</td>
+  </tr>
+  
+  <tr>
+    <td>height:100px</td>
+  </tr>
+  
+   <tr>
+    <td>float:right </td>
+   </tr>
+   
    <tr>
     <td>=usemap=""</td>
     <td>...</td>
