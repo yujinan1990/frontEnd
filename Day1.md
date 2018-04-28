@@ -34,12 +34,14 @@ If not, we need to give the whole path, either absolute or relative.
   >>+ The browser will use the first <source> element with matching attribute values, and ignore any following <source> elements.
   
 **summary**
+
 | Tag	 | Description |
 |-:|:-:|
 | <img>	| Defines an image |
 | <map>	| Defines an image-map |
 | <area>	| Defines a clickable area inside an image-map |
 | <picture>	| Defines a container for multiple image resources |
+  
 <table>
   <tr>
     <th>Attribute</th>
