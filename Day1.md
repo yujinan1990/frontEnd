@@ -2,6 +2,12 @@
 
 #2. introduction of chrome development tools
 
+元素（Elements）：用于查看或修改HTML元素的属性、CSS属性、监听事件、断点等。
+控制台（Console）：控制台一般用于执行一次性代码，查看JavaScript对象，查看调试日志信息或异常信息。
+源代码（Sources）：该页面用于查看页面的HTML文件源代码、JavaScript源代码、CSS源代码，此外最重要的是可以调试JavaScript源代码，可以给JS代码添加断点等。
+网络（Network）：网络页面主要用于查看header等与网络连接相关的信息。
+引自：https://blog.csdn.net/csdnligao/article/details/53925094
+
 #3. notes of some html labels
 >##<img >
 >>+ it has attribute of src="", and also alt="", besides width="", height="" or style="" or usemap=""
@@ -37,10 +43,10 @@ If not, we need to give the whole path, either absolute or relative.
 
 | Tag	 | Description |
 |-:|:-:|
-| <img>	| Defines an image |
-| <map>	| Defines an image-map |
-| <area>	| Defines a clickable area inside an image-map |
-| <picture>	| Defines a container for multiple image resources |
+| &lt; img &gt;	| Defines an image |
+| &lt; map &gt;	| Defines an image-map |
+| &lt; area &gt;| Defines a clickable area inside an image-map |
+| &lt; picture &gt;| Defines a container for multiple image resources |
   
 <table>
   <tr>
@@ -59,33 +65,28 @@ If not, we need to give the whole path, either absolute or relative.
   </tr>
   <tr>
     <td > usemap=""</td>
-    <td ><img usemap="#workmap"></td>
+    <td > &lt;   img usemap="#workmap"   &gt; </td>
   </tr> 
   <tr>
     <td > name=""</td>
-    <td ><map name="workmap"></td>
+    <td > &lt; map name="workmap" &gt; </td>
   </tr> 
    <tr>
-    <td>shape:""</td>
-    <td><area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"></td>
+     <td>shape=""</td>
+     <td> &lt; area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" &gt; </td>
    </tr>
    <tr>
-    <td>coords:""</td>
-    <td> <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm"></td>
+    <td>coords=""</td>
+    <td> &lt; area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm" &gt; </td>
    </tr> 
-  
   
   <tr>
     <td rowspan="4" >style=""</td>
-    <td >src=""</td>
-  </tr>
-  
-  <tr>
     <td >background-image:url('')</td>
   </tr>
-  
+    
   <tr>
-    <td>width:50px</td>
+    <td> width:50px </td>
   </tr>
   
   <tr>
@@ -96,9 +97,5 @@ If not, we need to give the whole path, either absolute or relative.
     <td>float:right </td>
    </tr>
    
-   <tr>
-    <td>=usemap=""</td>
-    <td>...</td>
-  </tr>
   
 </table>
