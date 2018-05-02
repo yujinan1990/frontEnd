@@ -20,13 +20,13 @@
 >>+ some cases about src="" attribute:
 >>>1. case1: images in another folder. - By default, the browser expects to find the image in the same folder as the web page. 
 If not, we need to give the whole path, either absolute or relative.
->>?2. case2: Images on Another Server - We need to give the address of the server like "https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"
+>>>2. case2: Images on Another Server - We need to give the address of the server like "https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com"
 >>>3. case3: Images on your own local PC - I don't konw right now???????
-
+ 
 >## &lt; map &gt;
-  >>+ the attribute is name=""
-  >>+ have some sub tags ofj <area> like: <area shape="" coords="" alt="" href=""> 
-  >>+ the name of the <map> is associated with the <img>'s usemap attribute 
+  >>+ it's attribute is name=""
+  >>+ have some sub tags of &lt;area &gt; like: <area shape="" coords="" alt="" href=""> 
+  >>+ the name of the <map> is associated with the &lt;img &gt;'s usemap attribute 
 
 >## &lt; body style="background-image:url('www.baidu.jpg')" &gt;
   >>+ the attribute style="background-image:url('')" is the key
@@ -41,7 +41,7 @@ If not, we need to give the whole path, either absolute or relative.
   >>+ Don't Forget the End Tag
   >>+ The browser will remove any extra spaces and extra lines when the page is displayed:
 >## &lt; pre &gt;
-  >>+ the text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+  >>+ the text inside a &lt;pre&gt; element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
 
 
 >## &lt; button &gt;
@@ -69,8 +69,8 @@ An input field can vary in many ways, depending on the type attribute.
 |&lt;p&gt;|Defines a paragraph |
 |&gt;pre&gt;| Defines pre-formatted text |
 | | |
-|&lt;button &gt| defines a clickable button |
-|&lt;input &gt|  specifies an input field where the user can enter data |
+|&lt;button &gt;| defines a clickable button |
+|&lt;input &gt;|  specifies an input field where the user can enter data |
   
 <table>
   <tr>
